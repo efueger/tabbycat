@@ -24,6 +24,7 @@ before_script:  # code coverage tool
   - ./cc-test-reporter before-build
 script:
   - flake8 tabbycat
+  - npm run stylelint
   - coverage run tabbycat/manage.py test -v 2 --exclude-tag=functional
 after_script:
   - coverage xml

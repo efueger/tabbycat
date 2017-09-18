@@ -8,7 +8,7 @@ python:
   - "3.6"
 env:
   global:
-    - CC_TEST_REPORTER_ID=e93289b66782f99213fec69659f0428021cf8cd284c79637e07323f15fd29461
+    - CC_TEST_REPORTER_ID=dacfc6b8828611407ee6f2b68514d846498c699661046db5d733ff35bdba7a6b
 addons:
   postgresql: "9.6"
   # chrome: stable # Re-enable for functional tests

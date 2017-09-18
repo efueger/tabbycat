@@ -69,6 +69,8 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+/virtualenv/
+venv/
 
 # Translations
 *.mo
